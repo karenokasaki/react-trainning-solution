@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  padding: 5px;
+  align-items: center;
+  height: 150px;
+  margin: 1rem;
+}
+
+.card > img {
+  height: 150px;
+}
+
+.card > div {
+  text-align: left;
+}

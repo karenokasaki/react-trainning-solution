@@ -1,0 +1,14 @@
+.color {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+  color: white;
+  border: 3px solid black;
+}
+
+.color > p {
+  font-size: 1.5rem;
+}

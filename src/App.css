@@ -1,38 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  margin: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.random {
+  border: 1px solid black;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.creditCardContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.likeButton {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+  width: 10rem;
+}
+
+.photos {
+  display: flex;
+  gap: 1rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.photos > img {
+  height: 12rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photos > button {
+  padding: 1rem;
 }
