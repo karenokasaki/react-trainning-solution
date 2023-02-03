@@ -1,23 +1,14 @@
 import style from './NumbersTable.module.css';
-import { useState } from 'react';
 
 function NumbersTable({ limit }) {
-  const [lim, setLim] = useState(0);
-  const [numberList, setNumberList] = useState([]);
+  let numberList = [];
 
-  function handleChange(e) {
-    setLim(e.target.value);
-
-    for (let i = 1; i <= e.target.value; i++) {
-      setNumberList([...numberList, i]);
-    }
+  for (let i = 1; i <= limit; i++) {
+    numberList.push(i);
   }
-
-  console.log(numberList);
 
   return (
     <div className={style.table}>
-      <input type="number" value={lim} onChange={handleChange} />
       {numberList.map((number) => {
         return (
           <div

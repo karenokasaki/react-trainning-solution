@@ -10,7 +10,7 @@ function CreditCard(props) {
 
   return (
     <div className={style.card} style={bgc}>
-      <img className={style.bandeira} src={type} alt="bandeira do cartão"></img>
+      <img src={type} alt="bandeira do cartão"></img>
       <div className={style.numberCard}>•••• •••• •••• {number}</div>
 
       <p>

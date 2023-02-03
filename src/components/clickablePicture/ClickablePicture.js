@@ -5,10 +5,12 @@ function ClickablePicture(props) {
   const [img, setImg] = useState(props.img);
 
   function handleImage() {
+    
     if (img === props.img) {
       //se a imagem for essa, muda pra outra
       setImg(props.imgClicked);
     }
+
     if (img === props.imgClicked) {
       //se a imagem for essa, muda pra outra
       setImg(props.img);

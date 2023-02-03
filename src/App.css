@@ -43,3 +43,23 @@
 .photos > button {
   padding: 1rem;
 }
+
+.facebookCard {
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.facebookCard > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.facebookButton {
+  padding: 0.3rem;
+  margin: 0.2rem;
+  background-color: white;
+  border: 2px solid silver;
+  cursor: pointer;
+}

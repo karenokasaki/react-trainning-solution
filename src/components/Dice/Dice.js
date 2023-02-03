@@ -19,8 +19,8 @@ function Dice() {
 
     setTimeout(() => {
       let randomIndex = Math.floor(Math.random() * dices.length);
-
-      setDice(dices[randomIndex]);
+      let diceRandom = dices[randomIndex];
+      setDice(diceRandom);
     }, 1000);
   }
 

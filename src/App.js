@@ -15,11 +15,13 @@ import LikeButton from './components/LikeButton/LikeButton';
 import Dice from './components/Dice/Dice';
 import Carousel from './components/Carousel/Carousel';
 import NumbersTable from './components/NumberTable/NumbersTable';
+import Facebook from './components/Facebook/Facebook';
+import FacebookAd from './components/FacebookAd/FacebookAd';
 
 function App() {
   return (
     <div className="App">
-      <IdCard
+      {/* <IdCard
         lastName="Doe"
         firstName="John"
         gender="male"
@@ -107,12 +109,12 @@ function App() {
           model: 'Audi A3',
           licensePlate: 'BE33ER',
         }}
-      />
-
+      /> 
+      
+      
       <LikeButton />
-      <LikeButton />
-
       <Dice />
+     
 
       <Carousel
         images={[
@@ -123,7 +125,12 @@ function App() {
         ]}
       />
 
-      <NumbersTable limit={12} />
+      <NumbersTable limit={12} /> 
+
+      <Facebook />
+      */}
+
+      <FacebookAd />
     </div>
   );
 }
